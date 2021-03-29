@@ -20,6 +20,7 @@ from pro2 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="home"),
+    path('page2/', views.page2, nam="page2"),
     path('rendemo/', views.rend_demo, name="rend_demo"),
     path('samdemo/', views.sam_demo, name="sam_demo"),
 
