@@ -11,6 +11,10 @@ def home(request):
     return HttpResponse("<h1>Hello World</h1>")
 
 
+def page2(request):
+    return HttpResponse("<h1>Welcome to the first project.</h1>")
+
+
 def rend_demo(request):
     return render(request, "sample.html")
 
